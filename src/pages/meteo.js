@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import Layout from '../componentes/layout/index';
+import Header from '../componentes/layout/Header';
+import TemplatesMeteo from './../componentes/Templates/TemplatesMeteo';
 
 class Meteo extends Component {
   render() {
     return (
       <div className="page">
-      <Layout/>
+      <Header/>
+       <TemplatesMeteo/>
       </div>
     );
   }

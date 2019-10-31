@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import Layout from '../componentes/layout/index';
+import Header from './../componentes/layout/Header';
+import TemplateContactos from './../componentes/Templates/TemplatesContactos'
 
 class Contacto extends Component {
   render() {
     return (
       <div className="page">
-        <Layout/>
+       <Header/>
+       <TemplateContactos/>
+       
       </div>
     );
   }

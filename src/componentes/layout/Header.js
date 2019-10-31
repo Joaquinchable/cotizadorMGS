@@ -1,5 +1,5 @@
 import React from 'react';
-import BarNav from "./BarNav"
+import BarNav from "./BarNav";
 const Header = () => {
     return (
         <div className="container-padre-header">

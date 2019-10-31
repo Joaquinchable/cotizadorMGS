@@ -10,16 +10,13 @@ const BarNav = () => {
                                 <Link to="/home">Home</Link>
                             </li>
                             <li>
+                                <Link to="/nosotros">Nosotros</Link>
+                            </li>
+                            <li>
                                 <Link to="/meteo">Meteorología</Link>
                             </li>
                             <li>
                                 <Link to="/energias">Energías</Link>
-                            </li>
-                            <li>
-                                <Link to="/comunicacion">Comunicación</Link>
-                            </li>
-                            <li>
-                                <Link to="/sercicios">Servicios</Link>
                             </li>
                             <li>
                                 <Link to="/contacto">Contacto</Link>

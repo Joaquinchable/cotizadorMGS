@@ -1,8 +1,8 @@
 .barnav-container {
   margin: 0px;
-  width: 80%;
-  padding: 15px 0px;
-  margin: 40px auto; }
+  width: 100%;
+  padding: 15px 200px;
+  margin: 40px auto 220px; }
 
 .menu {
   height: 30px;
@@ -10,8 +10,9 @@
 
 .menu ul {
   list-style: none;
-  margin: 0px;
-  padding: 0px; }
+  margin: 5px;
+  padding: 0px;
+  background-color: blues; }
 
 .menu ul li {
   display: inline-block;
@@ -23,12 +24,11 @@
   display: block;
   width: 150px;
   margin: 5px;
-  padding: 5px 180px;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: bold; }
 
-.navegacion li a:hover {
+.navegacion li :hover {
   color: #65a428;
   text-decoration: underline;
   transition: all 0.5s; }
@@ -119,3 +119,135 @@
 .logosCol {
   width: 20%;
   margin: auto; }
+
+.section-conatiner-Meteo {
+  width: 100%;
+  height: 660px;
+  display: flex; }
+
+.colImg-Meteo {
+  width: 30%;
+  background-image: url("../imges/meteo.jpg");
+  background-repeat: no-repeat;
+  height: 83%;
+  margin: 0 0 0 3em;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  border-radius: 3%; }
+
+.colImg-Energia {
+  width: 30%;
+  background-image: url("../imges/energias.jpg");
+  background-repeat: no-repeat;
+  height: 83%;
+  margin: 0 0 0 3em;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  border-radius: 3%; }
+
+.colTexto-Meteo {
+  width: 45%;
+  height: 74%;
+  margin-left: 4%; }
+
+.tituloHome-Meteo {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  color: #104d72;
+  margin-bottom: 1em; }
+
+.texto-Meteo {
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #6e6e66; }
+
+.logosMeteo {
+  width: 100%;
+  margin: auto;
+  display: flex; }
+
+.logosColMeteo {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 30%;
+  -webkit-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  -moz-box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  box-shadow: 10px 10px 15px -7px rgba(77, 77, 77, 0.47);
+  border-radius: 3%;
+  padding: 10px; }
+
+.logosColMeteo img {
+  max-width: 180px; }
+
+.logosColMeteo p {
+  font-size: 16px;
+  color: #104d72;
+  font-weight: bold;
+  margin-top: 20px; }
+
+.logosColMeteo p span {
+  font-size: 16px;
+  color: #6e6e6e; }
+
+.section-conatiner-nosotros {
+  width: 100%;
+  height: 630px;
+  display: flex; }
+
+.section-conatiner-nosotros .colImg {
+  width: 38%;
+  background-image: url("../imges/nosotros.jpg");
+  background-repeat: no-repeat;
+  height: 20%;
+  margin: 7em 0 0 0;
+  -webkit-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  -moz-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  box-shadow: 22px 21px 7px -15px #d9d9d9; }
+
+.section-conatiner-nosotros .colTexto {
+  width: 40%;
+  left: 35%;
+  top: 24%;
+  height: 30%;
+  background-color: #ffffff; }
+
+.section-conatiner-nosotros .containerTexto {
+  width: 90%;
+  margin: auto;
+  margin: 2% 0 0 25%; }
+
+.section-conatiner-nosotros .tituloHome {
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+  color: #104d72;
+  text-align: left;
+  margin-bottom: 1.5em; }
+
+.section-conatiner-nosotros .texto {
+  font-size: 1.3em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #6e6e6e; }
+
+.section-conatiner-nosotros .textoAbajo {
+  margin: 15% auto;
+  width: 60%;
+  height: 52%;
+  padding: 3% !important;
+  -webkit-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  -moz-box-shadow: 22px 21px 7px -15px #d9d9d9;
+  box-shadow: 22px 21px 7px -15px #d9d9d9;
+  margin-left: 15%;
+  background-color: #ffffff;
+  border: 1px solid  #ececec; }
+
+.textoAbajo h2 {
+  font-size: 1.8em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4em;
+  color: #155075;
+  font-weight: bold; }

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Layout from '../componentes/layout/index';
+import TemplateHome from './../componentes/Templates/TemplateHome';
+import Header from '../componentes/layout/Header';
 
 class Home extends Component {
   render() {
     return (
       <div className="page">
-      <Layout/>
-      
+      <Header/>
+      <TemplateHome/>      
       </div>
     );
   }
