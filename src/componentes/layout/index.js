@@ -1,9 +1,7 @@
 import React, {Component} from "react"
 import Header from './Header';
-import BarNav from './BarNav';
-import Section from './Section';
 import Footer from './Footer';
-
+import Section from './Section'
 
 class Layout extends Component{
     render() {

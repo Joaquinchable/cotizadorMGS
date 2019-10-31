@@ -1,10 +1,15 @@
 import React from 'react';
-import BarNav from './BarNav';
-
+import BarNav from "./BarNav"
 const Header = () => {
     return (
-        <div>
-            <BarNav/>
+        <div className="container-padre-header">
+        <div className="head">
+
+         <div className= "logo"></div>
+          <div className= "clima"></div>
+          
+        </div>
+        <BarNav/>
         </div>
     );
 };

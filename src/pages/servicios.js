@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../componentes/layout/index';
 
-class servicios extends Component {
+class Servicios extends Component {
   render() {
     return (
       <div className="page">
@@ -11,4 +11,4 @@ class servicios extends Component {
   }
 }
 
-export default servicios;
+export default Servicios;

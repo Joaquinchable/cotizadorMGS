@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../componentes/layout/index';
 
-class contacto extends Component {
+class Contacto extends Component {
   render() {
     return (
       <div className="page">
@@ -11,4 +11,4 @@ class contacto extends Component {
   }
 }
 
-export default contacto;
+export default Contacto;

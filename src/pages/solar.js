@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../componentes/layout/index';
 
-class solar extends Component {
+class Solar extends Component {
   render() {
     return (
       <div className="page">
@@ -11,4 +11,4 @@ class solar extends Component {
   }
 }
 
-export default solar;
+export default Solar;

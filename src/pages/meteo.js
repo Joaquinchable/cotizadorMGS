@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../componentes/layout/index';
 
-class meteo extends Component {
+class Meteo extends Component {
   render() {
     return (
       <div className="page">
@@ -11,4 +11,4 @@ class meteo extends Component {
   }
 }
 
-export default meteo;
+export default Meteo;

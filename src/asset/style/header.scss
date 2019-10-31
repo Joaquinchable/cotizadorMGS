@@ -1,0 +1,29 @@
+.head{
+display:flex;
+width:100% ;
+height: 80px;
+justify-content:space-around;
+padding: 2.5em;
+}
+
+
+.clima{
+
+    display: flex;
+    width: 50%;
+    background-color: #ffffff;
+    height: 5.5em;
+}
+
+
+
+.logo{
+    display: flex;
+    width: 50%;
+    background-color: #ffffff;
+    background-image: url('../imges/logo.svg');
+    background-repeat: no-repeat;
+    height: 5.5em;
+}
+
+

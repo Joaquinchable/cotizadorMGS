@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Layout from '../componentes/layout/index';
 
-class comunicacion extends Component {
+class Comunicacion extends Component {
   render() {
     return (
       <div className="page">
@@ -11,5 +11,5 @@ class comunicacion extends Component {
   }
 }
 
-export default comunicacion;
+export default Comunicacion;
 

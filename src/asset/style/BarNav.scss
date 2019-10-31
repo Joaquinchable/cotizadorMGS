@@ -1,17 +1,39 @@
-@font-face {
-	font-family: ProximaNova-Regular;
-	src: url(../fonts/ProximaNova-Regular.ttf);
-}
-@font-face {
-	font-family: euforia;
-	src: url(../fonts/euphorigenic.ttf);
-}
-
-*{
+.barnav-container {
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+    width: 80%;
+    padding: 15px 0px;
+    margin: 40px auto;
 }
+  
+  .menu {
+    height: 30px;
+    background-color: #ffffff;
+}
+  
+  .menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+  
+  .menu ul li {
+    display: inline-block;
+    width: 140px;
+    margin: auto 25px; 
+}
+  
+  .menu ul li a {
+    color: #000000;
+    display: block;
+    width: 150px;
+    margin: 5px;
+    padding: 5px 180px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+}
+  
+  .navegacion li a:hover {
+    color: #65a428;
+    text-decoration: underline;
+    transition: all 0.5s; }
 
